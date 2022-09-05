@@ -1,0 +1,200 @@
+.checkOutProduct{
+    width: 400px;
+    box-shadow: 0px 3px 6px rgb(2,2,208,0.10);
+    border-radius: 9px;
+    border:2px solid white;
+    min-height: 200px;
+    background: white;
+    
+}
+
+.checkOutProductDetail{
+    margin-top:12px;
+    /* margin-left: 16px; */
+}
+
+.checkOuttitle{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:#1B127B;
+    text-transform: capitalize;
+}
+
+.checkOutPayment{
+    border:1px solid #658CC5;
+    min-height: 568px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    padding:33px 60px;
+}
+
+.checkOutsubtitle{
+    color:#1B127B;
+    font-size: 12px;
+    margin-bottom: 38px;
+}
+
+
+.installmentInfo{
+    margin:unset;
+    display:flex;
+    position: relative;
+    z-index: 20000;
+}
+
+.breakoutsvg{
+    margin-left: -14%;
+    z-index: 2;
+}
+
+.breakoutText{
+    font-size: 14px;
+    color:#1B127B;
+    column-gap: 20px;
+}
+
+
+
+.cardLine{
+    border:2px solid white;;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.cardTitle{
+    color:#191C76;
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+
+.cardDetail{
+    padding:10px;
+    background-color: white;
+    width:100%;
+    height: 45px;
+    margin: unset;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.cardType{
+    background-color: #F7F7FF;
+    width: 39px;
+    height: 25px;
+    margin:unset;
+    text-align: center;
+    border-radius: 9px;
+    margin-right: 15px;
+}
+
+.cardNumber{
+    font-size: 14px;
+    color:#1B127B;
+    letter-spacing: 1.3px;
+}
+
+.cardInstruction{
+    background-color: transparent;
+    width:100%;
+    border-radius: 10px;
+    border:0.5px solid #6801FE;
+    padding-left:16px;
+    padding-top: 16px;
+    padding-bottom: 13px;
+}
+
+.astrik{
+    position: absolute;
+    margin-top: -27px;
+    margin-left: -39px;
+    background-color: #F7F7FF;
+    width: 2%;
+}
+
+.cardInstruction p{
+    font-size: 12px;
+    color:#191C76;
+}
+
+
+.hLine{
+    height: 189px;
+    border: 1px solid #658CC5;
+    width: 0;
+    margin: unset;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 67px;
+}
+
+.addCardFromNop {
+    background-color: white !important;
+    background: white !important;
+    border:white solid  !important;
+    border-radius: 0 !important;
+}
+
+.addCardFromNop:focus{
+    border:none !important;
+    outline: 0 !important;
+    background-color: white !important;
+}
+
+.addCardInputGroup{
+    display: flex;
+    flex-grow: 2 1 1;
+}
+
+.addCardFromNop:nth-of-type(1){background-color: white !important;border-right: none !important;}
+.addCardFromNop:nth-of-type(2){background-color: white !important;flex-shrink: 2;border-left: none !important;border-right: none !important;}
+.addCardFromNop:nth-of-type(3){background-color: white !important;flex-shrink: 2;border-left: none !important;}
+.cardErrorMsg{
+    color: red;
+    top: -3em;
+    font-size: 12px;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px){
+    /* .bodySegment{
+        overflow: hidden;
+    } */
+    .checkoutNopMobile{
+        margin:auto;
+    }
+    .navbar-brand{
+        margin: auto ;
+    }
+    .offset-2 {
+        margin: 0;
+    }
+    .checkOutProduct {
+        width: 100%;
+    }
+    .tagline{
+        column-gap: 100px !important;
+    }
+    .offset-1 {
+        margin-left: 0;
+    }
+    .checkOutPayment {
+        border: 1px solid #658CC5;
+        min-height: 568px;
+        border-radius: 10px;
+        margin-bottom: 100px;
+        padding: 33px 10px;
+    }
+}
+
+.nopmenuBrand{
+    margin: auto  !important;
+}
+
+
+
+@media only screen and (min-width: 576px){
+.iframe3dSecure .modal-dialog {
+    max-width:550px !important;
+}}

@@ -1,0 +1,48 @@
+<svg
+                  className="breakoutsvg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="100"
+                  height="62"
+                  viewBox="0 0 1 62"
+                >
+                  <defs>
+                    <radialGradient
+                      id="radial-gradient"
+                      cx="0.5"
+                      cy="0.5"
+                      r="0.5"
+                      gradientUnits="objectBoundingBox"
+                    >
+                      <stop offset="0" stopColor="#0115d0" />
+                      <stop offset="1" stopColor="#f10faa" />
+                    </radialGradient>
+                    <radialGradient id="radial-gradient-2" cy="0" />
+                    <linearGradient
+                      id="linear-gradient"
+                      x1="0.5"
+                      y1="0"
+                      x2="0.5"
+                      y2="1"
+                    />
+                  </defs>
+                  <g
+                    id="Group_3582"
+                    data-name="Group 3582"
+                    transform="translate(2)"
+                  >
+                    <path
+                      id="Path_14891"
+                      data-name="Path 14891"
+                      d="M918.013,1155.633a12.973,12.973,0,1,1,12.974-12.973A12.988,12.988,0,0,1,918.013,1155.633Z"
+                      transform="translate(-905.041 -1129.687)"
+                      fill="#fff"
+                    />
+                    <path
+                      id="Path_14890"
+                      data-name="Path 14890"
+                      d="M919.642,1144.289h10.215a10.215,10.215,0,1,1-10.215-10.215h.011Z"
+                      transform="translate(-906.67 -1131.316)"
+                      fill="url(#radial-gradient)"
+                    />
+                  </g>
+                </svg>

@@ -1,0 +1,32 @@
+.wishlistImg{
+    width: 150px;
+    max-width: 150px;
+    height: 150px;
+    max-height: 150px;
+    overflow: hidden;
+    border-radius: 11px;
+}
+
+.wishlistImg img{
+    width: 100%;
+}
+
+.wishlistParent{
+    flex-flow: row wrap;
+    column-gap: 49px;
+    row-gap: 20px;
+}
+
+.wishListProductName{
+    font-size: 13px;
+    color: #1B127B;
+    margin-top:8px;
+}
+
+.heart{
+    position: relative;
+    right: 8px;
+    float: right;
+    top: -168px;
+    cursor: pointer;
+}

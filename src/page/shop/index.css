@@ -1,0 +1,254 @@
+.shop {
+  margin-top: 78px;
+}
+
+.shopTitle {
+  font-size: 47px;
+  font-weight: 400;
+  color: #1b127b;
+}
+
+.btnGroup {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  column-gap: 9px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 48px;
+}
+
+.btnGroup button {
+  border: 1px solid rgb(0, 0, 0, 0.04);
+  background: transparent !important;
+  font-size: 13px;
+  color: #1b127b;
+  padding: 6px 10px !important;
+  border-radius: 7px;
+}
+
+.btnGroup button:hover {
+  color: #1b127b;
+}
+
+.btnGroup button:focus {
+  font-weight: 500;
+  color: white;
+  background: #1b127b !important;
+  background-color: #1b127b !important;
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.shopMainImg {
+  /* width: 500px; */
+  height: 500px;
+  overflow: hidden;
+  /* float:right;   */
+}
+.shopMainImg img.featureImage {
+  border-radius: 9px;
+  height: calc(100% - 50px);
+}
+
+.shop img {
+  width: 100%;
+  /* border-radius: 9px; */
+}
+
+/* .shoplogoC {
+  width: 127px;
+  height: 39px;
+  margin-top: 10px;
+} */
+
+.shoplogo {
+  width: 127px;
+  height: 39px;
+  margin-top: 10px;
+}
+
+.featureImgFrame {
+  height: 260px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.featureImgFrame img.featureShopImg {
+  /* height: 200px; */
+  border-radius: 9px;
+}
+.featureShoplogoContainer{
+ width: 196px;
+}
+.featureImgFrame .featureShoplogoContainer img.featureShoplogo {
+  /* width: 100%;
+  height: 36px;
+  margin-top: 10px; */
+}
+.shop .imgFrame {
+  /* width: 275px; */
+  height: 203px;
+}
+.shop .imgFrame img.coverImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 9px;
+}
+
+/* .shop .imgFrame .shoplogoC img {
+  width: 100%;
+  border-radius: 0px;
+} */
+
+.shop .imgFrame .shoplogo img {
+  width: 100%;
+  border-radius: 0px;
+}
+
+.designerTitle {
+  font-size: 32px;
+  font-weight: 100;
+  color: #658cc5;
+  text-align: left;
+}
+
+.viewall {
+  color: #658cc5;
+  font-size: 12px;
+  text-align: right;
+}
+
+.designerItem {
+  height: 120px;
+  width: 120px;
+  box-shadow: 0px 2px 6px rgb(2, 2, 208, 0.16);
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.designerImg {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.targetImg {
+  width: 100%;
+}
+
+.designerFlexing {
+  column-gap: 27px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 38px;
+  padding-bottom: 80px;
+}
+
+.logoImgFrame {
+  height: 123px;
+  width: 123px;
+  background: white;
+  border-radius: 18px;
+  padding: 23px 16px;
+}
+
+.logoImgFrame img {
+  width: 100%;
+}
+
+.footerTExt {
+  font-size: 33px;
+  font-weight: bold;
+  color: #1b127b;
+  margin: 28px 0px;
+}
+
+.footerImgSet img {
+  width: 275px;
+}
+
+/* shop info */
+
+.shopInfoCover {
+  height: 220px;
+  /* overflow: hidden; */
+}
+
+.shopInfoCover img {
+  border-radius: 10px;
+  height: 100%;
+}
+
+.terminated {
+  position: absolute;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  right: 13px;
+  top: 2%;
+}
+
+.modal-content {
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 415px;
+    margin: 1.75rem auto;
+  }
+}
+
+.shopLogo {
+  width: 97px;
+  height: 97px;
+  background: white;
+  padding: 10px;
+  position: relative;
+  left: 32px;
+  border-radius: 10px;
+}
+
+.shopLogoC {
+  width: 90px;
+  height: 90px;
+  background: white;
+  padding: 10px;
+  position: relative;
+  left: 32px;
+  top: -40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopInfoTitle {
+  font-size: 23px;
+  font-weight: 400;
+  color: #1b127b;
+}
+
+.shopInfoContent {
+  padding: 17px 30px;
+}
+
+.shopInfosubTitle {
+  font-size: 14px;
+  color: #1b127b;
+  margin-top: 5px;
+}
+
+.installmentHead {
+  font-size: 14px;
+  color: #658cc5;
+}

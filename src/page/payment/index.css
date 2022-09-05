@@ -1,0 +1,53 @@
+.noCard{
+    width: 408px;
+    height: 62px;
+    padding:20px;
+    border:1px dashed #1B127B;
+    border-radius: 6px;
+}
+
+.cards span{
+    margin-left:15px;
+    font-size: 14px;
+    color:#1B127B;
+}
+
+.Card{
+    width: 408px;
+    height: 62px;
+    padding:20px;
+    border:none;
+    background-color: #F7F7FF;
+    background: #F7F7FF;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+
+
+sup{
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+label{
+    color: #658CC5 !important;
+    font-size: 13px;
+}
+
+.expiryDate input{
+    text-align: center !important;
+}
+
+.cardIns{
+    font-size: 14px;
+    color:#1B127B;
+    font-weight: 500;
+}
+
+.cardCheck{
+    font-size: 14px;
+    margin-bottom:70px;
+    margin-top:8px;
+    color:#658CC5;
+}

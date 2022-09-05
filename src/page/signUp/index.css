@@ -1,0 +1,156 @@
+.form {
+  min-width: 315px;
+  width: 315px;
+  margin: auto;
+}
+
+.identityform {
+  width: 826px;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.identityform .form-floating {
+  width: 100%;
+}
+
+.identityform .box {
+  height: 250px;
+  border: 1px dashed rgb(101, 140, 197, 0.5);
+  width: 100%;
+  margin-top: 26px;
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 13px;
+  cursor: pointer;
+  /* display img */
+  background-size: cover;
+  background-position: center;
+}
+
+.box .text {
+  font-size: 16px;
+  color: #658cc5;
+}
+
+input:not([type="checkbox"]) {
+  background-color: transparent !important;
+}
+
+/* checkbox */
+
+.signUpCheck input[type="checkbox"] {
+  position: absolute !important;
+  cursor: pointer !important;
+  opacity: 0;
+  z-index: 1 !important;
+  height: 21px;
+  margin-left: -6px;
+  width: 22px;
+  margin-top: -3px;
+}
+
+/* Create a custom checkbox */
+.signUpCheck .checkmark {
+  position: relative;
+  margin-top: -5px;
+  margin-left: -7px;
+  height: 25px;
+  width: 25px;
+  background-color: #681dfe;
+  opacity: 0.85;
+  border-radius: 50%;
+}
+
+/* When the checkbox is checked, add a blue background */
+.signUpCheck input[type="checkbox"]:checked ~ .checkmark {
+  background-color: #681dfe;
+  opacity: 1;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.signUpCheck .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.signUpCheck input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.signUpCheck .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 7px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* otp */
+
+.otp div {
+  column-gap: 6px;
+}
+.otp input {
+  border: none;
+  border-bottom: 2px solid #658cc5 !important;
+  width: 74.04px !important;
+}
+.otp input:focus {
+  border: none;
+  border-bottom-color: #681dfe !important;
+  box-shadow: none !important;
+  outline: 0;
+  text-align: center;
+}
+
+/* id card */
+.idcard input {
+  border: none;
+  border-bottom: 2px solid #658cc5 !important;
+  width: 96.04px;
+  text-align: center;
+}
+
+.idcard input:focus {
+  border: none;
+  border-bottom-color: #681dfe !important;
+  box-shadow: none !important;
+  outline: 0;
+  text-align: center;
+}
+
+/* final page */
+
+/* identity received */
+
+.idtitle {
+  font-size: 28px;
+  font-weight: 500;
+  color: #1b127b;
+  margin-top: 40px;
+}
+
+.idSubtitle {
+  font-size: 23px;
+  color: #658cc5;
+  margin: 25px 0;
+}
+
+.file-input {
+  position: absolute;
+  height: 250px;
+  opacity: 0;
+  cursor: pointer;
+}

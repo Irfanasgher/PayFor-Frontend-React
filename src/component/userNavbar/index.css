@@ -1,0 +1,24 @@
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.55);
+}
+.navbar-light .navbar-nav .nav-link,
+a {
+  color: rgba(0, 0, 0, 0.55) !important;
+  text-decoration: none !important;
+}
+.userNavbar .btn-primary {
+  color: #fff;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0;
+}
+
+.userNavbar .btn-primary:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.userNavbar .navbar-brand{
+  margin-left: 5%;
+}

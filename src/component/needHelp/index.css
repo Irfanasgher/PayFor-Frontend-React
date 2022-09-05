@@ -1,0 +1,29 @@
+.content{
+    padding:37px 48px;
+}
+
+.popupTitle{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.modal-content {
+    border-radius: 10px !important;
+}
+
+@media (min-width: 992px){
+.modal-lg, .modal-xl {
+    max-width:550px;
+}}
+
+.terminated{
+    position: absolute;
+    cursor: pointer;
+    
+        width: 30px;
+        height: 30px;
+        right: 13px;
+        top: 2%;
+    
+}

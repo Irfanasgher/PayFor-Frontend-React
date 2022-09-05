@@ -1,0 +1,230 @@
+@import url("http://fonts.cdnfonts.com/css/sf-pro-display");
+* {
+  font-family: "SF Pro Display", sans-serif !important;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
+}
+
+/* welcome page */
+
+.section1 {
+  margin: auto;
+  text-align: center;
+  padding-top: 107.7px;
+}
+
+.logo {
+  width: 295px;
+  height: 80.09;
+  margin: auto;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.btn-group {
+  width: 300px;
+  margin: auto;
+}
+
+.gardientBtn {
+  background-image: linear-gradient(to right, #f100aa, #0115d0) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.gardientBtn svg {
+  right: -98px;
+  position: relative;
+}
+
+.btn-group button {
+  border-radius: 9px !important;
+  height: 43px;
+  font-size: 16px;
+  border: none;
+  width: 100%;
+}
+
+.simplebtn {
+  color: black !important;
+  background-color: white !important;
+  border: 1.5px solid #658cc5 !important;
+  font-size: 16px !important;
+}
+
+.instruction {
+  margin-top: 67px;
+  font-size: 9px;
+  color: #658cc5;
+  text-align: center;
+}
+
+.instruction .title {
+  font-weight: 500;
+}
+
+/* common */
+
+#picSection {
+  background-image: url("./assets/images/girls.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 105px;
+  padding-top: 120px;
+}
+#picSection .shopConfidence {
+  color: #fff;
+  font-size: 31px;
+  font-family: "SF Pro Display" !important;
+}
+#picSection .listContainer {
+  margin-top: 80px;
+}
+#picSection .listContainer ul {
+  padding-inline-start: 0px;
+  padding-left: 1rem;
+  color: #fff;
+  font-size: 18px;
+  font-family: "SF Pro Display" !important;
+}
+#picSection .listContainer ul li {
+  margin-top: 10px;
+}
+#picSection .imageContainer {
+  margin-top: 100px;
+}
+#picSection .imageContainer img.circlePayfor {
+  height: 118px;
+  width: 118px;
+}
+#picSection .storeContainer {
+  margin-top: 60px;
+}
+#picSection .storeContainer .appStore {
+  width: 125px;
+  height: 40px;
+  border-radius: 5px;
+}
+#picSection .storeContainer .googlePlay {
+  width: 135px;
+  margin-left: 15px;
+}
+/* typo */
+
+.typo {
+  margin-top: 133.2px;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 31px;
+  color: #1b127b;
+}
+
+.navtypo {
+  margin-top: 61.2px;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 31px;
+  color: #1b127b;
+  text-align: center;
+}
+
+.navsubtypo {
+  font-size: 23px;
+  color: #1b127b;
+  text-align: center;
+}
+
+.minitypo {
+  font-size: 14px;
+  color: #658cc5;
+  text-align: center;
+}
+
+/* form */
+.form-control {
+  border: none !important;
+  border-bottom: 2px solid #658cc5 !important;
+  border-radius: 0px !important;
+}
+
+.form-floating > .form-control:focus {
+  border-bottom-color: #681dfe !important;
+  box-shadow: none !important;
+  padding-top: 1.625rem !important;
+  padding-bottom: 0.625rem !important;
+}
+
+.form-floating > label {
+  padding: 1rem 0 !important;
+}
+
+.form-floating > .form-control {
+  padding: 1rem 0 0 0 !important;
+}
+
+/* bg color of nav exclude body */
+.bodySegment {
+  background-color: #f7f7ff;
+  min-height: 100vh;
+}
+
+/* normal text */
+
+.text1 {
+  font-size: 14px;
+  color: #658cc5;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* footer */
+.footer {
+  font-size: 9px;
+  color: #658cc5;
+  text-align: center;
+  /* position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* userDashboardFooter */
+
+.userDashboardFooter a {
+  color: #1b127b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1b127b !important;
+  text-decoration: none;
+}
+
+.userDashboardFooter a:visited {
+  color: #1b127b !important;
+  text-decoration: underline;
+}
+
+.userDashboardFooter link {
+  color: #1b127b !important;
+  text-decoration: underline;
+}
